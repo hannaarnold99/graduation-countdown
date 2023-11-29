@@ -1,0 +1,78 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://online.arizona.edu/sites/default/files/styles/814w/public/2022-03/Graduation_torch_news1.jpg?itok=Baz89eSf);
+    background-position: center;
+    background-size:cover;
+    padding:0 4%;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.content {
+    top: 30%;
+    position: absolute;
+    color:white;
+}
+
+.content p {
+    color: rgb(168, 25, 25);
+    font-size: 40px;
+    font-weight: bold;
+	-webkit-text-stroke: 0.5px white;
+	-webkit-text-fill-color: rgb(168, 25, 25);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.content h1 {
+    color: rgb(52, 52, 247);
+    font-size: 50px;
+    font-weight: bold;
+	-webkit-text-stroke: 1px white;
+	-webkit-text-fill-color: rgb(52, 52, 247);
+}
+
+.content h1 span {
+    color: #ff5;
+}
+
+.content button {
+    font-size: 18px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    padding: 12px 25px;
+}
+
+.launch-time {
+    display: flex;
+
+}
+
+.launch-time div {
+    flex-basis: 100px;
+}
+
+.launch-time div p {
+    font-size: 80px;
+    margin-bottom: -14px;
+    padding: 14px;
+}
+
+span {
+    padding:14px;
+    size:30px;
+    font-weight:bold;
+}
+
+a {
+    color: white;
+    font-size: 22px;
+
+}
